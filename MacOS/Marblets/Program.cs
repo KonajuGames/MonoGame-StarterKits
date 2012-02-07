@@ -26,7 +26,7 @@ namespace Marblets
 		MarbletsGame game;
 		public override void FinishedLaunching (MonoMac.Foundation.NSObject notification)
 		{
-			MarbletsGame game = new MarbletsGame ();
+			game = new MarbletsGame ();
 			game.Run ();
 		}
 		
