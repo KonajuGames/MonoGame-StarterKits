@@ -107,7 +107,7 @@ Global
 		{91CF4A04-9FDC-471D-AED0-D8F057068230} = {73DDE8DB-4345-43F2-9371-0A19FC669324}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\AlienGame\AlienGame.csproj
+		StartupItem = iOS\Platformer\Platformer.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.RemoveTrailingWhitespace = True

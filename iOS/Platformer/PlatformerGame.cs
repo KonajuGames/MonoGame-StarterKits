@@ -133,10 +133,8 @@ namespace Platformer
         private void HandleInput()
         {
             // get all of our input states
-#if !WINDOWS_PHONE && !ANDROID && !IPHONE
-            keyboardState = Keyboard.GetState();
-#endif
 #if !IPHONE
+            keyboardState = Keyboard.GetState();
             gamePadState = GamePad.GetState(PlayerIndex.One);
 #endif
             touchState = TouchPanel.GetState();
@@ -148,10 +146,8 @@ namespace Platformer
                 Exit();
 #endif
             bool continuePressed =
-#if !WINDOWS_PHONE && !ANDROID && !IPHONE
-                keyboardState.IsKeyDown(Keys.Space) ||
-#endif
 #if !IPHONE
+                keyboardState.IsKeyDown(Keys.Space) ||
                 gamePadState.IsButtonDown(Buttons.A) ||
 #endif
                 touchState.AnyTouch();
