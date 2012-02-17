@@ -45,7 +45,6 @@
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchI18n />
-    <MtouchSdkVersion>4.0</MtouchSdkVersion>
     <MtouchUseArmv7>false</MtouchUseArmv7>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
@@ -57,7 +56,6 @@
     <DefineConstants>IPHONE</DefineConstants>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchI18n />
-    <MtouchSdkVersion>4.0</MtouchSdkVersion>
     <MtouchUseArmv7>false</MtouchUseArmv7>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
